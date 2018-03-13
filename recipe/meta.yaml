@@ -37,6 +37,8 @@ requirements:
     - pytz
     - six >=1.10
     - kiwisolver >=1.0.1
+    - pkg-config
+    - libpng-devel
 
   run:
     - python
@@ -47,6 +49,8 @@ requirements:
     - pytz
     - six >=1.10
     - kiwisolver >=1.0.1
+    - pkg-config
+    - libpng-devel
 
 test:
   # Python imports
