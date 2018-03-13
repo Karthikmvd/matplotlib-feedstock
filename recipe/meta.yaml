@@ -39,6 +39,7 @@ requirements:
     - kiwisolver >=1.0.1
     - pkg-config
     - libpng-devel
+    - libpng16-devtools
 
   run:
     - python
@@ -51,6 +52,9 @@ requirements:
     - kiwisolver >=1.0.1
     - pkg-config
     - libpng-devel
+    - pkg-config
+    - libpng-devel
+    - libpng16-devtools
 
 test:
   # Python imports
