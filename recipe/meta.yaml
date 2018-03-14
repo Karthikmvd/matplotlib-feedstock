@@ -38,6 +38,7 @@ requirements:
     - six >=1.10
     - kiwisolver >=1.0.1
     - pkg-config
+    - freetype-devel
 
   run:
     - python
@@ -51,6 +52,7 @@ requirements:
     - pkg-config
     - libpng-devel
     - pkg-config
+    - freetype-devel
 
 test:
   # Python imports
