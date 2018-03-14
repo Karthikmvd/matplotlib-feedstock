@@ -38,6 +38,7 @@ requirements:
     - six >=1.10
     - kiwisolver >=1.0.1
     - pkg-config
+    - libpng-dev
     
   run:
     - python
@@ -49,7 +50,7 @@ requirements:
     - six >=1.10
     - kiwisolver >=1.0.1
     - pkg-config
-    - libpng-devel
+    - libpng-dev
     - pkg-config
     
 
