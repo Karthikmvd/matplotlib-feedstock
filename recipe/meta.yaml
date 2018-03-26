@@ -39,7 +39,7 @@ requirements:
     - kiwisolver >=1.0.1
     - pkg-config
     - libpng
-    
+    - freetype-devel
   run:
     - python
     - numpy >=1.7.1
@@ -52,6 +52,7 @@ requirements:
     - pkg-config
     - libpng
     - pkg-config
+    - freetype-devel
     
 
 test:
