@@ -53,6 +53,7 @@ requirements:
     - libpng
     - pkg-config
     - freetype
+    - setuptools
     
 
 test:
