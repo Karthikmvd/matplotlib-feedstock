@@ -42,7 +42,7 @@ cat << EOF | docker run -i \
                         -e HOST_USER_ID="${HOST_USER_ID}" \
                         -e CONDA_PY="${CONDA_PY}" \
                         -a stdin -a stdout -a stderr \
-                        kamasubb/conda-forge-linux-anvil-ppc64le \
+                        kamasubb/conda-forge-linux-anvil-ppc64le-centos \
                         bash || exit 1
 
 set -e
