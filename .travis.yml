@@ -4,7 +4,6 @@
 language: generic
 
 os: linux-ppc64le
-osx_image: xcode6.4
 
 env:
   matrix:
@@ -36,7 +35,7 @@ install:
       echo ""
       echo "Installing a fresh version of Miniconda."
       MINICONDA_URL="https://repo.continuum.io/miniconda"
-      MINICONDA_FILE="Miniconda3-latest-MacOSX-x86_64.sh"
+      MINICONDA_FILE="Miniconda3-latest-Linux-ppc64le.sh"
       curl -L -O "${MINICONDA_URL}/${MINICONDA_FILE}"
       bash $MINICONDA_FILE -b
 
