@@ -3,7 +3,7 @@
 
 language: generic
 
-os: osx
+os: linux-ppc64le
 osx_image: xcode6.4
 
 env:
